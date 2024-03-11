@@ -16,7 +16,141 @@ li {
     z-index: 10; /* Set the desired z-index value */
 }
 
+/*.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height/width) */
+  /*}
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .posts article video {
+    display: block;
+    width: 100%;
+    border-radius: 0.375em;
+    transition: transform 0.2s ease;
+  }
 
 
 
+  /* check main.css for the main applied code this is just for working memory and readability particularly mini-posts
+
+
+*/
+.index-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.index-header .menu-items {
+    display: flex;
+}
+
+.index-header .menu-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.index-header .menu-item img {
+    width: 40px; /* Adjust image width */
+    height: auto;
+    margin-right: 10px; /* Adjust spacing between image and title */
+}
+
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .index-header .menu-items {
+      flex-direction: column; /* Stack menu items vertically */
+      align-items: flex-start; /* Align menu items to the left */
+    }
+    
+    .index-header .menu-item {
+      margin-right: 0; /* Remove right margin between menu items */
+      margin-bottom: 10px; /* Add bottom margin to separate menu items */
+    }
+    
+    .index-header .menu-item img {
+      width: 30px; /* Decrease image width for smaller screens */
+    }
+  }
+
+  .index-header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px; /* Adjust the top position as needed */
+    z-index: 999; /* Ensure it's on top of other elements */
+}
+
+
+
+.button.big {
+    font-size: 1.2em; /* Adjust the font size as needed */
+}
+
+.big-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+.big-actions {
+    margin-top: 20px; /* Adjust top margin as needed */
+   /* text-align: center;
+/*} */
+
+#bottom-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 247, 255, 0.2);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9998; /* Ensure it appears on top of other content */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.9); /* Optional: add a shadow */
+    opacity: 0; /* Initially hide the footer */
+    transition: opacity 0.5s ease; /* Add transition for smooth appearance */
+
+}
+
+.hidden {
+    display: none;
+}
+/*
+#bottom-button-container.hidden {
+    display: none; /* Hide the footer initially */
+/*}
+*/
+#bottom-button-container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#bottom-button-container.visible {
+    opacity: 1; /* Show the footer */
+}
+
+/*
+#ssidebar-posts article .image{
+
+    width:100%;
+    height:100%;
+} */
+
+.sidebar-posts article .image img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Ensure proper spacing around the image */
+}
 
