@@ -1,0 +1,23 @@
+.new-menu-item {
+    /* Define your styles here */
+    margin-bottom: 10px;
+    /* Add more styles as needed */
+}
+
+.new-menu-item a {
+    /* Define styles for anchor tags inside .new-menu-item */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.new-menu-item a img {
+    /* Define styles for images inside .new-menu-item */
+    margin-right: 10px;
+}
+
+.new-menu-item a span {
+    /* Define styles for spans inside .new-menu-item */
+    font-weight: bold;
+}

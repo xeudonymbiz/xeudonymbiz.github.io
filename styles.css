@@ -8,6 +8,14 @@
     pointer-events: none; /* Allow underlying elements to receive clicks */
 }
 
+#gifindex
+{
+  width: 10vw; /* Adjust the percentage as needed */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  height: auto; /* Maintain aspect ratio */
+
+}
+
 #audioPlayer {
     display: none;
 }

@@ -23,311 +23,300 @@
 		
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="custom.styles.css" />
 		 
+
+
+
+        <style>
+            .link-menus {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-bottom: solid 5px #F18BDA; /* Adjust thickness and color as needed */
+                margin-bottom: 10px;
+            }
+            
+            
+            .link-item {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start; /* Align items to the start (left) */
+                margin-bottom: 10px; /* Adjust as needed */
+            }
+            
+            .link-item a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                padding: 5px 10px;
+                border: 1px solid black; /* Add border around buttons */
+            }
+            
+            .link-item img {
+                margin-right: 10px; /* Space between icon and text */
+                width: 1em; /* Set the width relative to the font size */
+                height: 1em; /* Set the height relative to the font size */
+                margin-right: 10px; /* Space between icon and text */
+            }
+            
+            .button-icon span {
+                font-weight: bold;
+                color:rgb(255, 0, 144);
+                font-size: large;
+                text-shadow: 2px 2px 4px rgba(255, 42, 220, 0.773);
+            }
+            
+            
+            .button-icon {
+                display: inline-block; /* Ensures buttons are displayed in a row */
+                width: 90vw; /* Adjust width as needed */
+                height: 12vw; /* Adjust height as needed */
+                text-align: center; /* Centers the content horizontally */
+                vertical-align: middle; /* Centers the content vertically */
+                line-height: 50px; /* Sets the line height equal to the button height for vertical centering */
+                margin: 10px; /* Add margin between buttons */
+                border: 1px solid #000; /* Add border to create a consistent outline */
+                /*border-radius: 5px; /* Optional: Adds rounded corners to buttons */
+            }
+            
+            .button-icon img {
+                width: 7vw; /* Ensure images don't exceed button size */
+                height: 7vw; /* Ensure images don't exceed button size */
+                vertical-align: middle; /* Centers the image vertically */
+            }
+            
+            .button-icon span {
+                display: inline-block; /* Allows span to respect width and height */
+                vertical-align: middle; /* Centers the text vertically */
+                font-size: 5vw;
+                margin-left: 5px; /* Add some space between the icon and text */
+            }
+            
+            .button-icon {
+                display: flex;
+                align-items: center; /* Center items vertically */
+                justify-content: center; /* Center items horizontally */
+                position: relative; /* Position the icons */
+            }
+            
+            .icon-right {
+                /*margin-left: auto; /* Push the icon to the right */
+            
+            
+                position: absolute;
+                right: 0;
+            }
+            
+            
+            .button-icon img:first-child {
+                position: absolute;
+                left: 0;
+            }
+            
+            
+            
+            header h1 {
+                margin: 0 auto; /* Center the text horizontally */
+            }
+            
+            
+            .button-icon {
+              background-color: #4d4d4d; /* Set the background color */
+              color: #ffffff; /* Set the text color */
+              border: none; /* Remove border */
+              border-radius: 50px; /* Make the button round */
+              padding: 10px 20px; /* Adjust padding as needed */
+              font-family: Arial, sans-serif; /* Use a standard font */
+              font-weight: bold; /* Make the text bold */
+              text-decoration: none; /* Remove underline */
+              display: inline-block; /* Make the button inline-block */
+              box-shadow: 0 6px 15px rgba(0, 0, 0, 0.799), 0 -6px 12px rgba(255, 255, 255, 0.3) inset; /* Adjust shadow on hover */
+              transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition */
+              background-image: 
+              linear-gradient(135deg, rgba(255, 0, 179, 0.5) 0%, rgba(255, 255, 255, 0) 100%) /* Add a gradient background */,
+                radial-gradient(circle, rgba(255, 255, 255, 0.952) 50%, transparent 100%);
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            
+            .button-icon:hover {
+              transform: translateY(-2px); /* Add a slight lift on hover */
+              box-shadow: 0 6px 102px rgba(255, 0, 247, 0.847); /* Adjust shadow on hover */
+            }
+            
+            .button-icon:active {
+              background-color: rgb(255, 255, 255); /* Add a color effect when the button is active (held down) */
+            }
+         
+            
+            body {
+	          background: linear-gradient(-45deg, #00f7ff, #000000, #23a6d5, #ff00dd);
+	          background-size: 400% 400%;
+	          animation: gradient 15s ease infinite;
+              background-size: cover; /* Cover the entire viewport */
+              background-position: center;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+            
+    </style>
+            
 	</head>
+
+
 	<body class="is-preload">
 
+
+
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
+            <!-- Main -->
+            <div id="main" style="margin-bottom: 100px;">
+                <div class="inner">
+        
+                    <header id="header" class="index-header">
+                        <a href="index.html" class="logo" style="color: aliceblue;text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);"><strong>dreamscape.lol</strong> by XEUDONYM</a>
+                    </header>
+        
+                    <!-- Banner -->
+                    <section style="margin:0;padding:0">
+                        <div class="content">
+                            <header style="display: flex; align-items: center;">
+                                <img id="gifindex" src="gifs/indexheart.gif" alt="Heart">
+                                    <h1 style="overflow: hidden;">
+                                    <img src="gifs/top-gif3.gif" alt="Top GIF 3" style="width: 90vh; max-width: 100%; height:29vh;"> 
+                                </h1>
+                               <!-- <h1>XEUDONYM</h1>--> 
+                                <img id="gifindex" src="gifs/indexheart.gif" alt="<3">
+                            </header>
+                            
+                            
+                        </div>
+                    </section>
+        
+                    <div class="link-menus">
+                        <div class="link-item">
+                            <a href="https://www.youtube.com/@xeudonym_/videos" class="button-icon">
+                                <img src="images/IndexPage_YoutubeIcon.png" alt="YouTube">
+                                <span>YouTube</span>
+                                <img src="images/IndexPage_YoutubeIcon.png" alt="YouTube" class="icon-right">
+                            </a>
+                        </div>
+                        <div class="link-item">
+                            <a href="https://instagram.com/xeudonym" class="button-icon">
+                                <img src="images/IndexPage_InstagramIcon.png" alt="Instagram">
+                                <span>Instagram</span>
+                                <img src="images/IndexPage_InstagramIcon.png" alt="Instagram" class="icon-right">
+                            </a>
+                        </div>
+                        <div class="link-item">
+                            <a href="https://soundcloud.com/xeudonym" class="button-icon">
+                                <img src="images/IndexPage_SoundcloudIcon.png" alt="SoundCloud">
+                                <span>SoundCloud</span>
+                                <img src="images/IndexPage_SoundcloudIcon.png" alt="SoundCloud" class="icon-right">
+                            </a>
+                        </div>
+                        <div class="link-item">
+                            <a href="https://open.spotify.com/artist/1M2OBghKCUG670eTlJJlN4?si=rlTqGjfpT1iXXcLkacW-Bg" class="button-icon">
+                                <img src="images/IndexPage_SpotifyIcon.png" alt="Spotify">
+                                <span>Spotify</span>
+                                <img src="images/IndexPage_SpotifyIcon.png" alt="Spotify" class="icon-right">
+                            </a>
+                        </div>
+                        <div class="link-item">
+                            <a href="https://twitter.com/xeudonym" class="button-icon">
+                                <img src="images/IndexPage_TwitterIcon.png" alt="Twitter">
+                                <span>Twitter/X</span>
+                                <img src="images/IndexPage_TwitterIcon.png" alt="Twitter" class="icon-right">
+                            </a>
+                        </div>
+                        <div class="link-item">
+                            <a href="https://twitch.tv/xeudonym" class="button-icon">
+                                <img src="images/IndexPage_TwitchIcon.png" alt="Livestreams">
+                                <span>Livestreams</span>
+                                <img src="images/IndexPage_TwitchIcon.png" alt="Livestreams" class="icon-right">
+                            </a>
+                        </div>
+                        <div class="link-item" style="margin-bottom:30px">
+                            <a href="mailto:xeudonym.business@gmail.com" class="button-icon">
+                                <img src="images/IndexPage_GmailIcon.png" alt="Contact">
+                                <span>Contact</span>
+                                <img src="images/IndexPage_GmailIcon.png" alt="Contact" class="icon-right">
+                            </a>
+                        </div>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+                    </div>
+                </div>
 
-							<header id="header" class="index-header">
-								<a href="index.html" class="logo" style="color: aliceblue;"><strong>dreamscape.lol</strong> by XEUDONYM</a>
-								<div class="menu-items">
-									<div class="menu-item">
-										<img src="images/IndexPage_YoutubeIcon.png" alt="Image 1">
-										<a href="https://www.youtube.com/@xeudonym_/">YouTube</a>
-									</div>
-									<div class="menu-item">
-										<img src="images/IndexPage_InstagramIcon.png" alt="Image 2">
-										<a href="https://instagram.com/xeudonym">Instagram</a>
-									</div>
-									<div class="menu-item">
-										<img src="images/IndexPage_SoundcloudIcon.png" alt="Image 3">
-										<a href="https://soundcloud.com/xeudonym">SoundCloud</a>
-									</div>
-									<div class="menu-item">
-										<img src="images/IndexPage_SpotifyIcon.png" alt="Image 4">
-										<a href="https://open.spotify.com/artist/1M2OBghKCUG670eTlJJlN4?si=rlTqGjfpT1iXXcLkacW-Bg">Spotify</a>
-									</div>
-									<div class="menu-item">
-										<img src="images/IndexPage_TwitterIcon.png" alt="Image 5">
-										<a href="https://twitter.com/xeudonym">Twitter/X</a>
-									</div><div class="menu-item">
-										<img src="images/IndexPage_GmailIcon.png" alt="Image 6">
-										<a href="mailto:xeudonym.business@gmail.com">Contact</a>
-									</div><div class="menu-item">
-										<img src="images/IndexPage_TwitchIcon.png" alt="Image 6">
-										<a href="https://twitch.tv/xeudonym">Livestreams</a>
-									</div>
-								</div>
-								<ul class="icons">
-									<!-- Your social media icons here -->
-								</ul>
-								<img src="gifs/newports-smoking.gif" alt="Funny GIF" style="width:30vh; height:auto;">
-							</header>
-							
+                
+            <section style="margin-top: 0.925em;">
+              <div class="content">
+                <header>
+                    <h1 style="text-align: center;margin-bottom:0.925em">CURRENT PROJECTS</h1>
+                </header>
+             </div>
+            </section>
+            <div class="link-menus" style="margin-bottom:5px;">
+                <div class="link-item">
+                    <a href="news-album.html" class="button-icon">
+                    <img src="images/IndexPage_XeudonymIcon.png" alt="Xeudonym"> 
+                    <span>ALBUM</span>
+                    <img src="images/IndexPage_XeudonymIcon.png" alt="Xeudonym" class="icon-right"> 
+                     </a>
+                </div>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>welcome to the internet!!!1!!!!!!!!<br />
-											!!!1!!one!!!</h1>
-											<p>LET'S FRICKIN' GO !! !! !!</p>
-										</header>
-										<p> i don't know if you can hear this xD but Welcome to my little corner of the cyber woods! (´･ω･) here we will explore the fun corners of the internet together ... and hopefully become friend's!!! :D:DD</p>
-										<ul class="actions">
-											<li><a href="#section-landing" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/headerimg.png" alt="#section-landing" />
-									</span>
-								</section>
 
-							<!-- Section -->
-								<section>
-									<header class="major" style="text-align: center;">
-										<h2 id="section-landing"  style="padding-top:2.5em;">Welcome to the official landing page of the xeudonym project!</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>What is this?</h3>
-												<p>You are welcome to stay as long as you want. Xeu started this project as to help people who hasn't had an easy life. I heard they genuinely want everyone to feel welcome no matter their background!</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Get in contact with your favorite creators!</h3>
-												<p>This is a way for fans and cult-members to interact with creators! When the project launches, we reckon this page will soon have a place for you to reach out to and leave messages to your favorite creators and artists! Artists to artists, as well, will be able to reach out for collaborations.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Be the first to see exclusive interviews!</h3>
-												<p>Ever been curious about that mysterious musician or creator you follow?? What are they like?? Xeu conducts interviews with all your favorite underground artists, so stick around to find out!</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Mental Health Corner</h3>
-												<p>Beyond the music, art, and daily lives, we explore the vital intersection of music and mental well-being. What is planned here is to have a moderated, curated collection of experiences and advice for helping your own mental health including official professional resources. Take care of yourself, ask for help.</p>
-											</div>
-										</article>
-									</div>
-								</section>
+                <div class="link-item">
+                    <a href="https://youtu.be/SmMK26de02s?si=3a7b-EycMY5olxJI" class="button-icon">
+                    <img src="images/IndexPage_YoutubeIcon.png" alt="YouTube">
+                    <span>MUSIC VIDEOS</span>
+                    <img src="images/IndexPage_YoutubeIcon.png" alt="YouTube" class="icon-right">
+                     </a>
+                </div>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>current works in progress! ^w^</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>This Very Website</h3>
-											<p>This is a single-person project as of right now, so lil' xeu is doing their best to make this as swift and welcoming as possible. There are planned to be several pages, such as a community sphere, a blog, a mental health corner, and some special secrets perhaps?</p>
-											<ul class="actions">
-												<li id="playButtonQuestionmark"><a class="button">?</a></li>  <!--GO FIX THE HREF TO A SECRET-->
-											</ul>
-										</article>
-										<article>
-											<a class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>The Interviews</h3>
-											<p>As a fan of music, and the individual person behind the art around the world, xeu wants to help alleviate the pressure for indie musicians & creators who are starting off in an increasingly toxic industry. AI, corporate greed, selfishness, all of which are bad for artists AND the industry. This is to circumvent that. Let's make our own wave... WIP of course.</p>
-											<ul class="actions">
-												<li id="playButtonUseless"><a href="#" class="button">useless button lol !!!!!</a></li>
-											</ul>
-										</article>                 <!-- IMAGE HREFS???-->
-										
-										<article>
-											<a class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>The Mental Health Corner</h3>
-											<p>As the concept started from having had friends throughout my youth struggling with mental health, and as for me as well - this matters dearly to me. Your mental health matters, and together, we'll break down stigmas, celebrate strengths, and weave a symphony of well-being. From personal reflections to curated resources, this space is dedicated to fostering a supportive community.</p>
-											<p></p>
-											<ul class="actions">
-												<li id="playButtonDog">
-													<a class="button" style="padding: 0em 0.7em; white-space: normal; margin-top:1em;font-size:0.73em">button that pets a random dog on earth !</a>
-												</li>
-											</ul>
-											
-										</article>
+                <div class="link-item">
+                    <a href="landingpage.html" class="button-icon">
+                    <img src="images/IndexPage_XeudonymIcon.png" alt="Xeudonym">
+                    <span>DREAMSCAPE.LOL</span>
+                    <img src="images/IndexPage_XeudonymIcon.png" alt="Xeudonym" class="icon-right">
+                    </a>
+                </div>
 
-										<article class="mini-videos">
-												  <iframe width="100%" height="40.5%" src="https://www.youtube.com/embed/SmMK26de02s" frameborder="0" allowfullscreen></iframe>
-											<h3>Music!!!</h3>
-											<p>As a full disclosure, i really miss the freedom and expression of the early internet, and i want to make my step in returning back from the corporate internet of today. I want this 2 be fun! So there will be plenty of Featured music, content, videos, from xeu and talented homies!!! :DD</p>
-											<ul class="actions">
-												<li id="playButtonXeu"><a href="https://soundcloud.com/xeudonym" class="button" target="_blank">Example of "Music"</a></li>
-											</ul>
-										</article>
+                <div class="link-item">
+                    <a href="news-merch.html" class="button-icon">
+                    <img src="images/IndexPage_XeudonymIcon.png" alt="Xeudonym">
+                    <span>MERCH</span>
+                    <img src="images/IndexPage_XeudonymIcon.png" alt="Xeudonym" class="icon-right">
+                    </a>
+                </div>
 
-										<article>
-											<a href="https://twitch.tv/xeudonym" class="image"><img src="images/IndexPage_XeudonymTwitch.png" style="padding-left:11%;width: 27vh; height: 30vh;" alt="Artwork by @RunecarSnowpen on Twitter!" /></a>
-											<h3>Livestreams!!</h3>
-											<p>EPIC GAMING !!! !!! & Sort of like that one Kenny Beats guy, there will be music reviews and hangouts for the community and featured artists on the xeudonym twitch page. Obviously it will be mostly fun stupid streams though hahhaha ❤️❤️❤️</p>
-											<ul class="actions">
-												<li><a href="https://twitch.tv/xeudonym" class="button">Leave some support! ❤️</a></li>
-											</ul>
-										</article>
-										
-										<article>
-											<a href="https://twitter.com/CLUBVORTEX2_7" class="image"><img src="images/IndexPage_CV27Banner.png" style="width: auto; height: 30vh;" alt="Clubvortex27" /></a>
-											<h3>Club Vortex 27</h3>
-											<p>As a grateful member of CV27, there will be featured news on releases from our various talented members! Founded of course by the talented Kyokosgarden.</p>
-											<div class="button-container">
-											  <ul class="actions">
-												<li><a href="https://twitter.com/CLUBVORTEX2_7" class="button">Official Twitter</a></li>
-											  </ul>
-											</div>
-										  </article>
-										  
-										  
-									</div>
-								</section>
-								
-								
-						</div>
+            </div>
+
+
+        </div>
+</div>
+        						
+</div>
 						
-					</div>
+</div>
 
 				
-					
+</div>
 
-
-					
-					
-
-				<!-- Top GIF container -->
-					<div id="top-gif-container" style="position: fixed; top: 0; right: 0; z-index: 3;">
-   						 	<!-- GIF 1 -->
-								<img id="gif1" src="gifs/top-gif1.gif" alt="Top GIF 1" style="width: 100px; max-width: 100%; height: 80px; margin-right: 2000px; display: inline; display: none;">
-
-   						 	<!-- GIF 2 -->
-								<img id="gif2" src="gifs/top-gif2.gif" alt="Top GIF 2" style="width: 150px; max-width: 100%; height: 120px; margin: 0 auto; display: inline; display: none;">
-
-   							 <!-- GIF 3 -->
-    							<img id="gif3" src="gifs/top-gif3.gif" alt="Top GIF 3" style="width: 120px; max-width: 100%; height: 80px; display: inline;">
-							
-					</div>
-
-					<!-- Bottom GIF container -->
-						<div id="bottom-gif-container" style="position: fixed; bottom: 0; right: 0; z-index: 3;">
-   							 <!-- GIF 1 -->
-    							<img id="gif1" src="gifs/bottom-gif1.gif" alt="Bottom GIF 1">
-
-    						<!-- GIF 2 -->
-   								 <img id="gif2" src="gifs/bottom-gif2.gif" alt="Bottom GIF 2">
-
-    						<!-- GIF 3 -->
-   								 <img id="gif3" src="gifs/bottom-gif3.gif" alt="Bottom GIF 3">
-						</div>
-
-				
-
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
-
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="news.html">News!!</a></li>
-										<!--<li><a href="elements.html">Elements VIBE CHECK</a></li>-->
-										<li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
-									</ul>
-								</nav>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Meeeeee !!!!! LOL :3</h2>
-									</header>
-									<div class="sidebar-posts">
-										<article>
-											<a href="" class="image"><img src="images/sidebarimg1.png" alt="" /></a>
-											<p>Artist Based in Sweden, XEUDONYM is a mental health advocate promoting self-liberation through intense music. All albums having a concept of its own regarding adjacent themes. perhaps even a Dreamer ? ?</p>
-										</article>
-										<article>
-											<a href="" class="image"><img src="images/sidebarimg2.png" alt="" /></a>
-											<p>Being human, XEUDONYM enjoys being silly and doing silly things such as getting "A Fun Drink pretty Much Every Day." Of course. Excellent.</p>
-										</article>
-										<article>
-											<a href="" class="image"><img src="images/sidebarimg3.png" alt="" /></a>
-											<p>XEUDONYM has lived with schizoid-affective disorder their entire life but is still doing pretty cool stuff. That is very cool, -Me</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="https://twitter.com/Xeudonym" class="button">More</a></li>
-									</ul>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>If you want to reach out to xeu, and send a fun message or talk for a bit - please reach out to me on my twitter, <a href="https://www.twitter.com/xeudonym">@Xeudonym</a></p>
-									<p>Otherwise, Serious Business inquiries and/or collaboration:</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:xeudonym.business@gmail.com">xeudonym.business@gmail.com</a></li>
-										<li class="icon solid fa-phone">uhhhHHhhmgfm,,,Please don't call the Internet Police on me</li>
-										<li class="icon solid fa-home">In a House on the Hill<br />
-										Dream Rd.</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; XEUDONYM. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
-					</div>
-
-			</div>
+</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -337,88 +326,8 @@
 			<script src="assets/js/main.js"></script>
 
 
-<footer id="bottom-button-container" class="hidden">
-	<div class="big-container">
-		<ul class="actions">
-			<li><a href="news.html" class="button big" style="padding: 15px 30px;line-height: 1.5em;">More eksyudonym!</a></li>
-		</ul>
-	</div>
-</footer>
-			
 
 
-
-<!-- MP3 audio element -->
-<audio id="audioPlayer" controls>
-    Your browser does not support the audio element.
-</audio>
-
-<!-- Your clickable GIFs as overlays 
-<img id="gifButton1" src="gif1.gif" alt="GIF 1" class="gif-overlay">
-<img id="gifButton2" src="gif2.gif" alt="GIF 2" class="gif-overlay">
--->
-
-<!-- Your JavaScript code -->
-<script>
-    // Get the audio player element
-    var audioPlayer = document.getElementById('audioPlayer');
-
-    /* Add click event listener to the obscured button
-    var obscuredButton = document.getElementById('obscuredButton');
-    obscuredButton.addEventListener('click', function () {
-        // Handle button click here
-        alert('Button Clicked!');
-    }); */
-
-    // Get all <li> buttons
-    var playButtons = document.querySelectorAll('li');
-
-    // Add click event listeners to each <li> button
-    playButtons.forEach(function (button) {
-        button.addEventListener('click', function (event) {
-            // Prevent the default behavior of the button
-            // event.preventDefault();
-// important ^
-
-
-            // Set the source and volume based on button's ID or use a default sound
-            if (button.id === 'playButtonDog') {
-                audioPlayer.src = 'audio/bark.mp3';
-                audioPlayer.volume = 0.5;
-            } else if (button.id === 'playButtonXeu') {
-                audioPlayer.src = 'audio/applause.mp3';
-                audioPlayer.volume = 0.5;
-            } else if (button.id === 'playButtonQ') {
-                audioPlayer.src = 'audio/mouseclick.mp3';
-                audioPlayer.volume = 0.5;
-            } else {
-                // Default sound for buttons without a specific ID
-                audioPlayer.src = 'audio/mouseclick.mp3';
-                audioPlayer.volume = 0.5;
-            }
-
-            // Reset the audio playback before playing
-            audioPlayer.currentTime = 0;
-
-            // Play the audio
-            audioPlayer.play();
-        });
-    });
-
- // Get all <a> elements with an href
-    var allLinks = document.querySelectorAll('a[href]');
-
-    // Add target="_blank" to external links
-    allLinks.forEach(function(link) {
-        var href = link.getAttribute('href');
-        if (href.startsWith('http') || href.startsWith('//')) {
-            link.setAttribute('target', '_blank');
-        }
-    });
-
-
-
-</script>
 
 <script>
 window.addEventListener('scroll', function() {
@@ -434,29 +343,14 @@ window.addEventListener('scroll', function() {
 });
 </script>
 
+<footer id="bottom-button-container" class="hidden">
+	<div class="big-container">
+		<ul class="actions">
+			<li><a href="landingpage.html" class="button big" style="padding: 15px 30px;line-height: 1.5em;">More eksyudonym!</a></li>
+		</ul>
+	</div>
+</footer>
 
-<!--
-<script>
-window.addEventListener('scroll', function() {
-    var footer = document.getElementById('bottom-button-container');
-    var scrollPosition = window.scrollY + window.innerHeight;
-    var bodyHeight = document.body.offsetHeight;
-
-    // Adjust the 200 value to control when the footer appears
-    if (scrollPosition >= bodyHeight - 50) {
-        footer.classList.remove('hidden');
-    } else {
-        footer.classList.add('hidden');
-    }
-});
-
-
-
-</script>
--->
 </body>
-
-	</body>
-
-
+    
 </html>
